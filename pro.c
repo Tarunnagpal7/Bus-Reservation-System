@@ -18,6 +18,7 @@ void read_name(int bsno);
 int read_number(int bsno);
 void cancelation();
 void status();
+//main function.
 int main(){
     int choice;
     login();
