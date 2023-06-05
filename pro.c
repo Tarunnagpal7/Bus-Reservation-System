@@ -379,7 +379,7 @@ printf("\n\n");
   }
   seatnumber = atoi(str1);
   seatnumber = seatnumber+1;
-  itoa(seatnumber,str1,10);
+  itoa(seatnumber,str1,10);//convert the integer to string
   if(bsno==1){
     f1=fopen("tr1.txt","w");
     fputs(str1,f1);
