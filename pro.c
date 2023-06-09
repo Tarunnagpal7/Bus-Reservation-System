@@ -418,7 +418,7 @@ void login(){
       printf("\n");
       printf("\t\t\t\tENTER PASSWORD : ");
       while(i<7){
-        pass[i]=getch();
+        pass[i]=getch();//used to hide the password.
         printf("*");
         i++;
       }
